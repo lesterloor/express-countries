@@ -7,10 +7,10 @@ html
       .wrap
         .card
           .card-header
-            img.card-img(src=country.flag, style="width:300; height:300;border-radius:300px;")
+            img.card-img(src=country.flag, style="width:100px; height:100px;border-radius:500px;")
           .card-body
             h3.card-title #{country.name} 
-            p.prod-price.h2(data-price='') CODE: #{country.code}  
-            p.prod-price.h3(data-price='') Native Name: #{country.nativeName}
-            p.prod-price.h3(data-price='') Population: #{country.population}
-            p.prod-price.h3(data-price='') Region: #{country.region} 
+            h6.card-title CODE: #{country.code}  
+            h6.card-title Native Name: #{country.nativeName}
+            h6.card-title Population: #{country.population}
+            h6.card-title Region: #{country.region} 
