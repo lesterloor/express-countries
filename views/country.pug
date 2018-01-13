@@ -1,0 +1,16 @@
+html
+  head
+    title= "Countries"
+    link(rel='stylesheet', href='../main.css')
+  body
+    main
+      .wrap
+        .card
+          .card-header
+            img.card-img(src=country.flag, style="width:300; height:300;border-radius:300px;")
+          .card-body
+            h3.card-title #{country.name} 
+            p.prod-price.h2(data-price='') CODE: #{country.code}  
+            p.prod-price.h3(data-price='') Native Name: #{country.nativeName}
+            p.prod-price.h3(data-price='') Population: #{country.population}
+            p.prod-price.h3(data-price='') Region: #{country.region} 

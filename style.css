@@ -1,0 +1,189 @@
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #45a0fe;
+  color: #fff;
+  font: 1em/1.375 "Roboto", sans-serif;
+  text-align: center;
+}
+
+.wrap {
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+h1,
+.h1 {
+  font: 700 42px/44px "Roboto Slab", serif;
+  margin: 22px 0 44px;
+}
+
+h2,
+.h2 {
+  font: 700 30px/44px "Roboto Slab", serif;
+  margin: 22px 0 0;
+}
+
+h3,
+.h3 {
+  font: 700 22px/22px "Roboto Slab", serif;
+  margin: 22px 0 11px;
+}
+
+h4,
+.h4 {
+  font: 700 18px/22px "Roboto Slab", serif;
+  margin: 0;
+}
+
+p,
+ol,
+ul {
+  margin: 0 0 22px;
+}
+
+sup {
+  font-size: 12px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.info-text {
+  color: #9898a1;
+}
+
+a {
+  color: #45a0fe;
+}
+
+/* ==========================================================================
+   $Forms
+   ========================================================================== */
+.form-control {
+  border: 1px solid #9898a1;
+  display: inline-block;
+  margin-bottom: 0.68em;
+  padding: 0.35em;
+}
+
+/* ==========================================================================
+   $Fuse
+   ========================================================================== */
+.fuse-wrap {
+  background-color: tint(#9898a1, 20%);
+  border-radius: 5px;
+  height: 3px;
+}
+
+.fuse {
+  background-color: #45a0fe;
+  height: 100%;
+  width: 100%;
+}
+
+/* ==========================================================================
+   $Buttons
+   ========================================================================== */
+.btn {
+  background-color: transparent;
+  border: 1px solid;
+  display: inline-block;
+  cursor: pointer;
+  margin-bottom: 0.68em;
+  -webkit-transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+  transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+  padding: 0.5em 0.68em 0.58em;
+}
+
+.btn-primary {
+  background-color: #45a0fe;
+  border-color: shade(#45a0fe, 10%);
+  color: #fff;
+}
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+  background-color: shade(#45a0fe, 10%);
+}
+
+.btn-link {
+  background-image: none;
+  border: none;
+  color: #45a0fe;
+}
+
+.btn-expanded {
+  width: 100%;
+}
+
+/* ==========================================================================
+   $Card
+   ========================================================================== */
+.card {
+  background-color: #fff;
+  border: 1px solid tint(#9898a1, 20%);
+  -webkit-box-shadow: 0 0 8px 1px rgba(46, 46, 51, 0.1);
+  box-shadow: 0 0 8px 1px rgba(46, 46, 51, 0.1);
+  color: #2e2e33;
+  max-width: 248px;
+  margin: 2.75em auto;
+  text-align: left;
+  overflow: hidden;
+  position: relative;
+}
+
+.card-img {
+  display: block;
+  margin: 22px auto 0;
+}
+
+.card-body {
+  padding: 0 22px;
+}
+
+.card-footer {
+  padding: 22px;
+  position: relative;
+}
+
+/* ==========================================================================
+   $Product Details
+   ========================================================================== */
+/* $Ratings
+   ========================================================================== */
+.stars {
+  color: #45a0fe;
+  font-size: 22px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.stars > li {
+  display: inline;
+}
+
+/* $Price
+   ========================================================================== */
+.prod-price {
+  font: 700 31px/44px "Roboto Slab", serif;
+  margin: 0;
+}
+
+/* $Steps
+   ========================================================================== */
+.step-2-of-3,
+.step-3-of-3 {
+  display: none;
+}
